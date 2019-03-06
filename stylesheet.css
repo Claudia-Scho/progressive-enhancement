@@ -1,3 +1,4 @@
+/* STANDARD TEXT STYLING*/
 h1 {
     font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
     font-size: 40px;
@@ -14,40 +15,82 @@ p {
     letter-spacing: 1.5px;
   }
 
+header > p {
+    background-color: yellow;
+    max-width: 70%
+    }
+
+/*LIST STYLING*/
+  ul.no_bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  li {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    font-size: 16px;
+    letter-spacing: 1.5px;}
+
+  li.positive {
+  background: url('https://raw.githubusercontent.com/Claudia-Scho/progressive-enhancement/master/Pictures/Positive.png') no-repeat left top;
+  background-size: 35px;
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;}
+  li.negative {
+    background: url('https://raw.githubusercontent.com/Claudia-Scho/progressive-enhancement/master/Pictures/Negative.png') no-repeat left top;
+    background-size: 35px;
+    height: 54px;
+    padding-left: 44px;
+    padding-top: 3px;}
+  li.cat {
+    background: url('https://raw.githubusercontent.com/Claudia-Scho/progressive-enhancement/master/Pictures/Cat.png') no-repeat left top;
+    background-size: 35px;
+    height: 54px;
+    padding-left: 44px;
+    padding-top: 3px; }
+
+  /*TABLE STYLING*/
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    font-size: 16px;
   }
   th {
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(155, 154, 154);
     color: black;
   }
 
   td {text-align: center;}
 
+  tr:nth-child(even) {background: #CCC}
+  tr:nth-child(odd) {background: #FFF}
+
   /* STYLING OF LINKS*/
     /* unvisited link */
-a:link {
+    a:link {
     color: rgb(129, 36, 36);
-  }
+    }
   
-  /* visited link */
-  a:visited {
+    /* visited link */
+    a:visited {
     color: rgb(105, 45, 87);
-  }
+    }
   
-  /* mouse over link */
-  a:hover {
+    /* mouse over link */
+    a:hover {
     color: rgb(224, 83, 153);
-  }
+    }
   
-  /* selected link */
-  a:active {
+    /* selected link */
+    a:active {
     color: rgb(139, 109, 156);
-  }
+   }
 
   /*STYLING THE BODY*/
-  body {
+    body {
     background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(113, 113, 113));
     background: radial-gradient(rgb(255, 255, 255), rgb(113, 113, 113));
     background-image: url("https://raw.githubusercontent.com/Claudia-Scho/progressive-enhancement/master/Pictures/Horse_Background.jpg");
@@ -58,23 +101,60 @@ a:link {
     height: 100%;
     max-width: 90%;
     margin-left: 250px;
-  }
+    }
 
 
-  blockquote {
+    blockquote {
     max-width: 45%;
     margin-left: 100px ;
-  }
+    }
 
   /*STYLING QUOTATIONS*/
   .quotation {
       background: rgb(204, 200, 200);
-      border-left: 3px dashed rgb(0, 0, 0);
       display: inline-block;
       font-size: 160%;
+      font-style: italic;
       float: none;
       padding-top: 80px;
       padding-bottom: 80px;
       padding-left: 30px;
+      padding-right: 30px;
       position: static;
+    }
+
+  .villagers {
+    border-left: 3px dashed rgb(0, 0, 0);
+    }
+
+  .farmer {
+    border-left: 3px dashed rgb(226, 104, 104);
+    }
+
+  
+  /*STYLING GOOD OR BAD*/
+  .good{ 
+    color: green;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
+  .bad{
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
+  /*TOP PAGE INLINE STYLING*/
+  .box1 {
+    display: inline-block;
+    max-width: 400px;
+    max-width: 400px;
+    margin: 10px;
+  }
+  .box2 {
+    display: inline-block;
+    max-width: 400px;
+    max-width: 400px;
+    margin: 10px;
   }
