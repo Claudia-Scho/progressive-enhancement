@@ -1,0 +1,72 @@
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    font-size: 40px;
+  }
+  
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    font-size: 30px;
+  }
+  
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: rgb(206, 206, 206);
+    color: black;
+  }
+
+  td {text-align: center;}
+
+  /* STYLING OF LINKS*/
+    /* unvisited link */
+a:link {
+    color: rgb(129, 36, 36);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(105, 45, 87);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(224, 83, 153);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(139, 109, 156);
+  }
+
+  /*STYLING THE BODY*/
+  body {
+    background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(113, 113, 113));
+    background: radial-gradient(rgb(255, 255, 255), rgb(113, 113, 113));
+    max-width: 90%;
+    margin-left: 250px ;
+  }
+
+  blockquote {
+    max-width: 45%;
+    margin-left: 100px ;
+  }
+
+  /*STYLING QUOTATIONS*/
+  .quotation {
+      background: rgb(204, 200, 200);
+      border-left: 3px dashed rgb(0, 0, 0);
+      display: inline-block;
+      font-size: 160%;
+      float: none;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      position: static;
+  }
