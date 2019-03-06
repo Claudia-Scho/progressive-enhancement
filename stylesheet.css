@@ -50,9 +50,16 @@ a:link {
   body {
     background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(113, 113, 113));
     background: radial-gradient(rgb(255, 255, 255), rgb(113, 113, 113));
+    background-image: url("https://raw.githubusercontent.com/Claudia-Scho/progressive-enhancement/master/Pictures/Horse_Background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    height: 100%;
     max-width: 90%;
-    margin-left: 250px ;
+    margin-left: 250px;
   }
+
 
   blockquote {
     max-width: 45%;
@@ -68,5 +75,6 @@ a:link {
       float: none;
       padding-top: 80px;
       padding-bottom: 80px;
+      padding-left: 30px;
       position: static;
   }
